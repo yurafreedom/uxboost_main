@@ -1,0 +1,43 @@
+.upgrade-block {
+	padding-top: 140px;
+	padding-bottom: 188px;
+	background-color: #fff;
+	&__wrapper {
+		position: relative;
+		display: block;	
+	}
+	&__title {
+		display: block;
+		font-weight: 800;
+		font-size: 85px;
+		line-height: 1.2;
+		margin-bottom: 18px;
+		color: #2950A3;
+		span {
+			background: linear-gradient(to top, #70FFBA 40%, transparent 0%);
+		}
+	}
+	&__description {
+		display: block;
+		font-size: 36px;
+		font-weight: 600;
+		line-height: 1.2;
+		color: #2950A3;
+	}
+}
+
+@include for-size(mobile) {
+	.upgrade-block {
+		padding-top: 99px;
+		&__title {
+			font-size: 46px;
+			line-height: 1.2;
+			margin-bottom: 26px;
+		}
+		&__description {
+			font-size: 18px;
+			width: 100%;
+			max-width: 270px;
+		}
+	}
+}

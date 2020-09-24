@@ -1,0 +1,48 @@
+
+// GLOBAL STYLES
+@import "global/custom-variables";
+
+@import "global/normalize";
+@import "global/mixins";
+@import "global/forms";
+@import "global/tabs";
+@import "global/buttons";
+@import "global/fonts";
+
+// PLUGINS STYLE
+@import "plugins/select.min";
+@import "plugins/swiper.min";
+@import "plugins/tooltipster.min";
+
+// BLOCKS STYLE
+@import "blocks/page-header";
+@import "blocks/plugins";
+@import "blocks/upgrade-block";
+@import "blocks/education-block";
+@import "blocks/mentoring-block";
+@import "blocks/intensives-block";
+@import "blocks/registration-block";
+@import "blocks/cases-block";
+@import "blocks/contacts-block";
+@import "blocks/action-block";
+@import "blocks/page-footer";
+
+body {
+	position: relative;
+	background-color: #fff;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+	
+	font-family: $font-family, sans-serif;
+	color: #000;
+	font-weight: 400;
+	line-height: 1.2;
+	font-size: 16px;
+	min-width: 320px;
+	margin: 0;
+}
+
+
+
+

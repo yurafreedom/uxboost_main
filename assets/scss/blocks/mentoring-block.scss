@@ -1,0 +1,100 @@
+.mentoring-block {
+	background-color: #F3F6F8;
+	padding-top: 115px;
+	padding-bottom: 160px;
+	&__title {
+		display: block;
+		text-align: center;
+		font-size: 71px;
+		font-weight: 800;
+		line-height: 1.2;
+		color: #2950A3;
+		margin-bottom: 20px;
+		span {
+			background: linear-gradient(to top, #70FFBA 40%, transparent 0%);
+		}
+	}
+	&__description {
+		display: block;
+		text-align: center;
+		font-size: 36px;
+		font-weight: 600;
+		color: #2950A3;
+		margin-bottom: 45px;
+		p {
+			margin: 0;
+		}
+	}
+	&__text {
+		display: block;
+		width: 100%;
+		max-width: 934px;
+		margin: 0 auto;
+		text-align: center;
+		font-size: 28px;
+		line-height: 1.2;
+		color: #1F1F1F;
+		margin-bottom: 15px;
+		p {
+			margin: 0;
+		}
+	}
+	&__emoji-block {
+		position: relative;
+		display: block;
+		span {
+			display: block;
+			text-align: center;
+			font-size: 109px;
+			margin-bottom: 26px;
+		}
+	}
+	&__emoji-description {
+		display: block;
+		text-align: center;
+		font-size: 28px;
+		font-weight: 500;
+		color: #000;
+		margin-bottom: 43px;
+		p {
+			margin: 0;
+		}
+	}
+	&__button-wrapper {
+		position: relative;
+		display: block;
+		width: 100%;
+		max-width: 424px;
+		margin: 0 auto;
+	}
+	&__button-cube {
+		position: absolute;
+		top: 16px;
+		left: 16px;
+		width: 100%;
+		max-width: 424px;
+		height: 109px;
+		background-color: #70FFBA;
+		z-index: 1;
+	}
+}
+
+@include for-size(mobile) {
+	.mentoring-block {
+		&__title {
+			text-align: left;
+			font-size: 46px;
+			line-height: 1.2;
+		}
+		.btn--mentoring {
+			max-width: 282px;
+			font-size: 32px;
+			padding-top: 20px;
+			padding-bottom: 20px;
+		}
+		&__button-cube {
+			max-width: 282px;
+			height: 72px;
+		}
+	}
+}

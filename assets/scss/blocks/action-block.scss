@@ -1,0 +1,18 @@
+.action-block {
+	padding-top: 120px;
+	padding-bottom: 138px;
+	background-color: #2F7DC6;
+	&__title {
+		display: block;
+		font-size: 58px;
+		font-weight: 800;
+		line-height: 1.2;
+		color: #fff;
+		a {
+			color: #70FFBA;
+		}
+		a:hover {
+			text-decoration: none;
+		}
+	}
+}
