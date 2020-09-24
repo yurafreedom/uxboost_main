@@ -81,6 +81,8 @@
 
 @include for-size(mobile) {
 	.mentoring-block {
+		padding-top: 50px;
+		padding-bottom: 75px;
 		&__title {
 			text-align: left;
 			font-size: 46px;
@@ -95,6 +97,25 @@
 		&__button-cube {
 			max-width: 282px;
 			height: 72px;
+		}
+		&__description {
+			font-size: 18px;
+			text-align: left;
+			margin-bottom: 21px;
+		}
+		&__text {
+			text-align: left;
+			font-size: 20px;
+			p:not(:last-child) {
+				margin-bottom: 20px;
+			}
+		}
+		&__emoji-block span {
+			font-size: 64px;
+		}
+		&__emoji-description {
+			font-size: 16px;
+			color: rgba(0, 0, 0, 0.3);
 		}
 	}
 }

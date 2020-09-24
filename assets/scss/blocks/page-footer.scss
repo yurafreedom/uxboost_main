@@ -27,8 +27,18 @@
 
 @include for-size(mobile) {
 	.page-footer {
+		padding-top: 20px;
+		padding-bottom: 20px;
+		&__wrapper {
+			padding-left: 15px;
+			padding-right: 15px;
+		}
 		&__privacy-link {
+			text-align: center;
 			font-size: 14px;
+			width: 100%;
+			max-width: 280px;
+			margin: 0 auto;
 		}
 	}
 }

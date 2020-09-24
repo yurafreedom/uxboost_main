@@ -45,10 +45,20 @@
 
 @include for-size(mobile) {
 	.contacts-block {
+		padding-top: 50px;
+		padding-bottom: 50px;
 		&__title {
 			text-align: left;
 			font-size: 33px;
 			line-height: 1.2;
+			margin-bottom: 27px;
+		}
+		&__card-link {
+			font-size: 18px;
+			margin-bottom: 20px;
+		}
+		&__card-text {
+			font-size: 16px;
 		}
 	}
 }

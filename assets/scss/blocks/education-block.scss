@@ -58,13 +58,38 @@
 	&__list ul li p a {
 		color: #70FFBA;
 	}
+	&__mobile-title {
+		display: none;
+	}
 }
 
 @include for-size(mobile) {
 	.education-block {
+		padding-top: 50px;
+		padding-bottom: 50px;
 		&__title {
+			display: none;
+		}
+		&__mobile-title {
+			display: block;
 			font-size: 46px;
 			line-height: 1.2;
+			font-weight: 800;
+			color: #fff;
+			margin-bottom: 26px;
+			span {
+				color: #70FFBA;
+			}
+		}
+		&__subtitle {
+			font-size: 18px;
+			margin-bottom: 50px;
+		}
+		&__list ul {
+			font-size: 18px;
+		}
+		&__list ul li p br {
+			display: none;
 		}
 	}
 }

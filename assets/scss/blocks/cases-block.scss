@@ -86,3 +86,42 @@
 		}
 	}
 }
+
+@include for-size(mobile) {
+	.cases-block {
+		padding-top: 50px;
+		padding-bottom: 0;
+		&__title {
+			text-align: left;
+			font-size: 49px;
+			margin-bottom: 0;
+		}
+		&__list {
+			display: block;
+		}
+		&__card-row {
+			padding-top: 55px;
+			padding-bottom: 57px;
+			&:not(:last-child) {
+				margin-right: 0;
+			}
+		}
+		&__card-row:nth-child(2) {
+			background-color: #F9FBFD;
+		}
+		&__card-row:nth-child(2) &__card-block {
+			background-color: #F9FBFD;
+		}
+		&__card-block {
+			padding: 0;
+			border: 0;
+			background-color: #fff;
+		}
+		&__card-inner {
+			margin-bottom: 25px;
+		}
+		&__card-link {
+			color: #2950A3;
+		}
+	}
+}

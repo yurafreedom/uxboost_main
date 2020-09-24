@@ -16,3 +16,16 @@
 		}
 	}
 }
+
+@include for-size(mobile) {
+	.action-block {
+		padding-top: 50px;
+		padding-bottom: 50px;
+		&__title {
+			font-size: 28px;
+			br {
+				display: none;
+			}
+		}
+	}
+}
