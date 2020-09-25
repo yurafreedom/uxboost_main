@@ -1302,6 +1302,7 @@ template {
       display: none; }
     .intensives-block__slider {
       display: block;
+      overflow: hidden;
       margin-bottom: 30px; }
     .intensives-block__card-row {
       -ms-flex-negative: 1;
